@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-image: linear-gradient(to bottom, #13668acc, #3a929ece );/*Transição do azul escuro p/ o claro de cima p/ baixo*/
     margin: 0;
     padding: 0;
     display: flex;
@@ -83,9 +83,20 @@ body {
     border-radius: 4px;
 }
 
+.instagram-login:hover {
+    color: #ffffff;
+    background-color: #00c5f6;
+    transition: .4s;
+    box-shadow: 0 0 15px 3px rgba(160, 160, 160, 0.788);/*adicionei sobreado e realce no botão*/
+}
+
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+}
+
+.instagram-logout:hover {
+    font-size: 107%;/*Um pequeno aumento da fonte*/
 }
 
 .not-account {
@@ -103,6 +114,7 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    color: #ffffff;
 }
 
 .download {
